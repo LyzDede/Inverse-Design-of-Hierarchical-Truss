@@ -6,7 +6,7 @@ load("net\topo6_layNum14_logFK_tangGeo_lowF.mat")
 load("net\topo8_layNum19_logFK_tangGeo_lowF.mat")
 load("net\topo10_layNum20_logFK_tangGeo_lowF.mat")
 load("net\topo12_layNum24_logFK_tangGeo_lowF.mat")
-load("Hier\hier2\fksH2.mat")
+
 load("Hier\hier3\fksH3.mat")
 load("Hier\hier2\fk.mat")
 
@@ -84,3 +84,4 @@ netB={netB6,netB8,netB10,netB12};
 
 fkIn=uniformFoward(log(fks12b),log(fks12b));
 geoOut=uniformFoward(tanGeos12b,tanGeos12b);
+
