@@ -9,6 +9,7 @@ load("net\topo12_layNum24_logFK_tangGeo_lowF.mat")
 
 load("Hier\hier3\fksH3.mat")
 load("Hier\hier2\fk.mat")
+load("Hier\hier2\fksH2.mat")
 
 filename='optData\b6.xlsx';
 data = xlsread(filename);
@@ -84,4 +85,5 @@ netB={netB6,netB8,netB10,netB12};
 
 fkIn=uniformFoward(log(fks12b),log(fks12b));
 geoOut=uniformFoward(tanGeos12b,tanGeos12b);
+
 
